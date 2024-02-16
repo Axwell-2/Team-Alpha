@@ -4,12 +4,12 @@ body {
     padding: 0;
     background: url('https://img.freepik.com/free-vector/simple-starry-night-background-gradient_23-2148273606.jpg?w=996&t=st=1708076315~exp=1708076915~hmac=e4c5e3b76857e36e4ba44ce206013ae5c5f0cd6c6d1addf76b4de233646f1fdc') no-repeat center center fixed;
     background-size: cover;
-    color: #333; /* Default text color */
+    color: #333; 
 }
 
 header,
 nav {
-    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     text-align: center;
     padding: 20px;
@@ -35,14 +35,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #ecf0f1; /* Lighter color on hover */
+    color: #ecf0f1;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
 }
 
 main {
@@ -52,14 +52,14 @@ main {
 section {
     margin-bottom: 30px;
     color: #333;
-    background-color: rgba(236, 240, 241, 0.7); /* Light gray background color with 70% transparency */
+    background-color: rgba(236, 240, 241, 0.7); 
     padding: 15px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 footer {
-    background-color: rgba(52, 73, 94, 0.7); /* Darker blue background color with 70% transparency */
+    background-color: rgba(52, 73, 94, 0.7); 
     color: white;
     text-align: center;
     padding: 20px;
@@ -70,7 +70,7 @@ footer {
 }
 
 .dropbtn {
-    background-color: rgba(52, 73, 94, 0.7); /* Darker blue color with 70% transparency */
+    background-color: rgba(52, 73, 94, 0.7); 
     color: white;
     padding: 10px;
     font-size: 16px;
@@ -81,7 +81,7 @@ footer {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(236, 240, 241, 0.9); /* Light gray background color with 90% transparency */
+    background-color: rgba(236, 240, 241, 0.9);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -94,14 +94,14 @@ footer {
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(52, 73, 94, 0.7); /* Darker blue color with 70% transparency on hover */
+    background-color: rgba(52, 73, 94, 0.7); 
     color: white;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/* Add this CSS to your existing styles */
+
 .dropdown-content {
     display: none;
     position: absolute;
