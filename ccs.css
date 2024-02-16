@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/free-vector/simple-starry-night-background-gradient_23-2148273606.jpg?w=996&t=st=1708076315~exp=1708076915~hmac=e4c5e3b76857e36e4ba44ce206013ae5c5f0cd6c6d1addf76b4de233646f1fdc') no-repeat center center fixed;
+    background-size: cover;
+    color: #333; /* Default text color */
+}
+
+header,
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ecf0f1; /* Lighter color on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    color: #333;
+    background-color: rgba(236, 240, 241, 0.7); /* Light gray background color with 70% transparency */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+footer {
+    background-color: rgba(52, 73, 94, 0.7); /* Darker blue background color with 70% transparency */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: rgba(52, 73, 94, 0.7); /* Darker blue color with 70% transparency */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(236, 240, 241, 0.9); /* Light gray background color with 90% transparency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(52, 73, 94, 0.7); /* Darker blue color with 70% transparency on hover */
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Add this CSS to your existing styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
